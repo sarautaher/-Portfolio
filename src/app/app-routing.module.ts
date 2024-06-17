@@ -9,7 +9,7 @@ import { SkillComponent } from './Componets/skill/skill.component';
 
 const routes: Routes = [
   {path:'' ,redirectTo:"Home" ,pathMatch:"full"}, 
-  {path:'Home',component:HomeComponent,title:"Home"},
+  {path:'Home',component:HomeComponent,title:"Portfolio"},
   {path:'About',component:AboutComponent,title:'About'},
   {path:'contact',component:ContactComponent,title:'contact'},
   {path:'Project',component:ProjectsComponent,title:'Project'},
