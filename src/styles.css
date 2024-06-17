@@ -1,0 +1,171 @@
+
+body{
+    color: #fff;
+   background-color: RGB(31, 36, 45);
+}
+.text-main{
+ 
+    color: #00EEFF !important;
+}
+.bg-maim{
+    background-color: #00EEFF !important;
+    color: #fff !important;}
+
+.text-home{
+    font-size: 40px !important;
+    
+}
+.text-icon{
+    transition: all 1s;    
+}
+.text-icon:hover{
+    border: #fff 1px solid !important;
+    color: #fff  !important;
+    background-color: #00EEFF  !important; 
+    box-shadow: 3px 3px 3px 3px #00EEFF  !important;
+}
+.icon{
+    border: 1 #fff solid;
+    transition: all 1s;
+}
+.icon:hover{
+    color: #fff;
+    background-color: #00EEFF;
+    transform: rotate(360deg);
+  
+
+}
+a{
+    text-decoration: none;
+}
+
+#Home .auto-type::after{
+    content: "";
+    animation-name:move ;
+    animation-iteration-count: infinite;
+    animation-duration: 5s; 
+}
+@keyframes move{
+0%{
+ content:  "Fron |";   
+}
+10%{
+    content:  "Front |";   
+   }
+   30%{
+    content:  "Front end |";   
+   }
+   40%{
+    content:  "Front end devel|";   
+   }
+   50%{
+    content:  "Front end develop|";   
+   }
+   60%{
+    content:  " Front end developer|";   
+   }
+   70%{
+       content:  "Angul|";   
+      }
+      80%{
+       content:  "Angular |";   
+      }
+      90%{
+       content:  "Angular devel|";   
+      }
+      100%{
+       content:  "Angular developer|";   
+      }
+}
+/* #Skills{
+    position: relative;
+}
+.skill{
+    animation-name: img;
+    animation-iteration-count: infinite;
+    animation-duration: 5s; 
+    position: absolute;
+    bottom: -100%;
+    
+}
+@keyframes img{
+    0%{
+        bottom: -60%;;
+    }
+    30%{
+        bottom: 20%;
+    }
+    60%{
+        bottom: -60%;
+    }
+     100%{
+        bottom: 20%;;
+    }
+} */
+.log{
+    animation-name: moveup;
+    animation-iteration-count: infinite;
+    animation-duration: 5s; 
+     
+}
+@keyframes moveup{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.skill{
+    position: relative;
+    top:10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top 0.5s,opacity 0.5s;
+    transition-delay: 0.5s;  
+}
+.line{
+    height: 4px;
+width: 100px;
+background-color: #00EEFF}
+.framework{
+ 
+    visibility: hidden;
+    position: relative;
+    top:10px;
+    opacity: 0;
+    transition: top 0.8s ,opacity 0.8s;
+    transition-delay: 0.8s;  
+}
+.cont{
+    position: relative;
+    top:10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top 1s,opacity 1s;
+    transition-delay: 1s; 
+}
+.about,.About_textt{
+    position: relative;
+    top:20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top 0.5s,opacity 0.5s;
+    transition-delay: 1s;   
+}
+.show{
+    top:0;
+    opacity: 1;
+    visibility:visible; 
+}
+.project{
+    position: relative;
+    transition:  all 0.5s;
+}
+.project:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px  2px 2px #00EEFF ;
+}
