@@ -1,4 +1,3 @@
-
 body{
     color: #fff;
    background-color: RGB(31, 36, 45);
@@ -9,7 +8,7 @@ body{
 }
 .bg-maim{
     background-color: #00EEFF !important;
-    color: #fff !important;}
+    color: #000 !important;}
 
 .text-home{
     font-size: 40px !important;
@@ -43,65 +42,120 @@ a{
     content: "";
     animation-name:move ;
     animation-iteration-count: infinite;
-    animation-duration: 5s; 
+    animation-timing-function: linear;
+    animation-duration: 10s; 
+    border-right: 2px #000 solid;
+    padding-right: 10px;
 }
+
 @keyframes move{
 0%{
- content:  "Fron |";   
+ content:  "F ";   
 }
-10%{
+3%{
+    content:  "Fr ";   
+   }
+   6%{
+    content:  "Fro ";   
+   }
+   9%{
+    content:  "Fron|";   
+   }
+   12%{
     content:  "Front |";   
    }
-   30%{
-    content:  "Front end |";   
+   15%{
+    content:  " Front e|";   
    }
-   40%{
-    content:  "Front end devel|";   
-   }
-   50%{
-    content:  "Front end develop|";   
-   }
-   60%{
-    content:  " Front end developer|";   
-   }
-   70%{
-       content:  "Angul|";   
+   18%{
+       content:  "Front en|";   
       }
-      80%{
-       content:  "Angular |";   
-      }
-      90%{
-       content:  "Angular devel|";   
-      }
+    21%{
+        content:  "Front end|"; 
+    }
+    24%{
+        content:  "Front end d|";
+    }
+    27%{
+        content:  "Front end de|";
+    }
+    30%{
+        content:  "Front end dev|";
+    } 
+    33%{
+        content:  "Front end deve|";
+    }
+    36%{
+        content:  "Front end devel|";
+    }
+    39%{
+        content:  "Front end develo|";
+    }
+    42%{
+        content:  "Front end develop|";
+    }
+    45%{
+        content:  "Front end develope|";
+    }
+    48%{
+        content:  "Front end developer|";
+    }
+    51%{
+        content:  "Front end developer|";
+    }
+    54%{
+        content:  "A|";
+    }
+    57%{
+        content:  "An|";
+    }
+    60%{
+        content:  "Ang|";
+    }
+    63%{
+        content:  "Angu|";
+    }
+    66%{
+        content:  "Angul|";
+    }
+    69%{
+        content:  "Angula|";
+    }
+    72%{
+        content:  "Angular|";
+    }
+    75%{
+        content:  "Angular |";   
+       }
+     78%{
+        content:  "Angular d|";   
+       }
+    81%{
+        content:  "Angular de|";   
+       }
+       84%{
+        content:  "Angular dev|";   
+       }
+       87%{
+        content:  "Angular deve|";   
+       }
+       90%{
+        content:  "Angular devel|";   
+       }
+       93%{
+        content:  "Angular develo|";   
+       }
+       96%{
+        content:  "Angular develop|";   
+       }
+       99%{
+        content:  "Angular develope|";   
+       }
       100%{
        content:  "Angular developer|";   
       }
 }
-/* #Skills{
-    position: relative;
-}
-.skill{
-    animation-name: img;
-    animation-iteration-count: infinite;
-    animation-duration: 5s; 
-    position: absolute;
-    bottom: -100%;
-    
-}
-@keyframes img{
-    0%{
-        bottom: -60%;;
-    }
-    30%{
-        bottom: 20%;
-    }
-    60%{
-        bottom: -60%;
-    }
-     100%{
-        bottom: 20%;;
-    }
-} */
+
 .log{
     animation-name: moveup;
     animation-iteration-count: infinite;
@@ -168,4 +222,16 @@ background-color: #00EEFF}
 .project:hover{
     transform: scale(1.1);
     box-shadow: 2px 2px  2px 2px #00EEFF ;
+}
+.dark-mode{
+    background-color: #fff !important;
+   
+}
+.dark-mode .text-white ,.dark-mode .text-light,.dark-mode .nav-link{
+    color: #000 !important;
+    
+}
+.dark-mode .navbar-toggler{
+    color: #fff!important; 
+    background-color: #000 !important;
 }

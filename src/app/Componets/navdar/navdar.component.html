@@ -2,7 +2,7 @@
               
     <div class="container">
 
-    <a class="navbar-brand fw text-main text-home" href="#Home"><i class="fa-solid fa-s fa-2x"></i>
+    <a class="navbar-brand fw text-main text-home text-center" (click)="ScrollTocommand('Home')" > <em> s T</em> 
        </a>
        
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -11,19 +11,25 @@
     
     <div class="collapse navbar-collapse" id="navbarNavDropdown"> 
    
-        <ul  class="navbar-nav m-auto mt-2 mt-lg-0 text-white">
-            <li class="nav-item active">
-                <a class="nav-link  text-icon rounded-pill mx-2" href="#About">About </a>
+        <ul  class="navbar-nav ms-auto mt-2 mt-lg-0 text-white">
+            <li class="nav-item active" (click)="ScrollTocommand('About')">
+                <a class="nav-link  text-icon rounded-pill mx-2 text-center"  >About </a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link  text-icon rounded-pill mx-2" href="#Projects" >Projects</a>
+                <a class="nav-link  text-icon rounded-pill text-center mx-2"(click)="ScrollTocommand('Projects')" >Projects</a>
             </li>
           
             <li class="nav-item ">
-                <a class="nav-link  text-icon rounded-pill mx-2"href="#Skills" >Skills</a>
+                <a class="nav-link  text-icon rounded-pill text-center mx-2"(click)="ScrollTocommand('Skills')"  >Skills</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link text-icon rounded-pill mx-2" href="#Contact" >Contact</a>
+                <a class="nav-link text-icon rounded-pill mx-2 text-center"  (click)="ScrollTocommand('Contact')" >Contact</a>
+            </li>
+            <li class="nav-item ">
+                <button id="togglebutton" #toggleButton class="nav-link   rounded-pill  mx-auto fs-6"(click)="bark()"  >
+                    <i class="fa-solid fa-moon text-primary fs-2 d-none"id="moon"></i>
+                    <i class="fa-solid fa-sun text-warning fs-2" id="sun"></i>
+          </button>      
             </li>
         </ul>
 </div>

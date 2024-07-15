@@ -13,7 +13,9 @@ import { FooterComponent } from './Componets/footer/footer.component';
 import { SkillComponent } from './Componets/skill/skill.component';
 import { ContactComponent } from './Componets/contact/contact.component';
 import { ProjectsComponent } from './Componets/projects/projects.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
+import{BrowserAnimationsModule}from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -32,6 +34,8 @@ import { ProjectsComponent } from './Componets/projects/projects.component';
     AppRoutingModule,
     HttpClientModule,
     ReactiveFormsModule,
+    BrowserAnimationsModule,
+    CarouselModule,
     FormsModule
   ],
   providers: [],
