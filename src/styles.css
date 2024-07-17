@@ -21,7 +21,7 @@ body{
     border: #fff 1px solid !important;
     color: #fff  !important;
     background-color: #00EEFF  !important; 
-    box-shadow: 3px 3px 3px 3px #00EEFF  !important;
+    box-shadow: 3px 3px 3px #00EEFF  !important;
 }
 .icon{
     border: 1 #fff solid;
@@ -221,7 +221,7 @@ background-color: #00EEFF}
 }
 .project:hover{
     transform: scale(1.1);
-    box-shadow: 2px 2px  2px 2px #00EEFF ;
+    box-shadow: 2px 2px 2px #00EEFF ;
 }
 .dark-mode{
     background-color: #fff !important;
