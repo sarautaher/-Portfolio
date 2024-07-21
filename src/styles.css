@@ -21,11 +21,7 @@ body{
     border: var(--text-white) 1px solid !important;
     color: var(--text-white)  !important;
     background-color: #00EEFF  !important; 
-<<<<<<< HEAD
     box-shadow: 3px 3px  3px #00EEFF  !important;
-=======
-    box-shadow: 3px 3px 5px #00EEFF  !important;
->>>>>>> 36188538e309f76f201bb5bb32d6304cda81943b
 }
 .icon{
     border: 1 var(--text-white) solid;
@@ -194,11 +190,9 @@ background-color: #00EEFF}
 }
 .project:hover{
     transform: scale(1.1);
-<<<<<<< HEAD
-    box-shadow: 5px 5px  3px #00EEFF ;
-=======
+
     box-shadow: 2px 2px 5px #00EEFF ;
->>>>>>> 36188538e309f76f201bb5bb32d6304cda81943b
+
 }
 .dark-mode{
     background-color: var(--text-white) !important;
