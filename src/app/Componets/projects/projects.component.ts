@@ -4,10 +4,9 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 @Component({
   selector: 'app-projects',
   templateUrl: './projects.component.html',
-  styleUrl: './projects.component.css'
+  styleUrls: ['./projects.component.css']
 })
-export class ProjectsComponent  {
- 
+export class ProjectsComponent {
   customOptions: OwlOptions = {
     loop: true,
     mouseDrag: false,
@@ -31,6 +30,5 @@ export class ProjectsComponent  {
       }
     },
     nav: true
-  }
- 
+  };
 }
