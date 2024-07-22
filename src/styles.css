@@ -1,38 +1,36 @@
+:root{
+    --text-white:#fff;
+}
 body{
-    color: #fff;
+    color: var(--text-white);
    background-color: RGB(31, 36, 45);
 }
 .text-main{
- 
     color: #00EEFF !important;
 }
 .bg-maim{
     background-color: #00EEFF !important;
     color: #000 !important;}
-
 .text-home{
-    font-size: 40px !important;
-    
+    font-size: 40px !important; 
 }
 .text-icon{
     transition: all 1s;    
 }
 .text-icon:hover{
-    border: #fff 1px solid !important;
-    color: #fff  !important;
+    border: var(--text-white) 1px solid !important;
+    color: var(--text-white)  !important;
     background-color: #00EEFF  !important; 
-    box-shadow: 3px 3px 3px 3px #00EEFF  !important;
+    box-shadow: 3px 3px  3px #00EEFF  !important;
 }
 .icon{
-    border: 1 #fff solid;
+    border: 1 var(--text-white) solid;
     transition: all 1s;
 }
 .icon:hover{
-    color: #fff;
+    color: var(--text-white);
     background-color: #00EEFF;
     transform: rotate(360deg);
-  
-
 }
 a{
     text-decoration: none;
@@ -173,35 +171,11 @@ a{
         transform: rotate(360deg);
     }
 }
-.skill{
-    position: relative;
-    top:10px;
-    opacity: 0;
-    visibility: hidden;
-    transition: top 0.5s,opacity 0.5s;
-    transition-delay: 0.5s;  
-}
+
 .line{
     height: 4px;
 width: 100px;
 background-color: #00EEFF}
-.framework{
- 
-    visibility: hidden;
-    position: relative;
-    top:10px;
-    opacity: 0;
-    transition: top 0.8s ,opacity 0.8s;
-    transition-delay: 0.8s;  
-}
-.cont{
-    position: relative;
-    top:10px;
-    opacity: 0;
-    visibility: hidden;
-    transition: top 1s,opacity 1s;
-    transition-delay: 1s; 
-}
 .about,.About_textt{
     position: relative;
     top:20px;
@@ -210,21 +184,16 @@ background-color: #00EEFF}
     transition: top 0.5s,opacity 0.5s;
     transition-delay: 1s;   
 }
-.show{
-    top:0;
-    opacity: 1;
-    visibility:visible; 
-}
 .project{
     position: relative;
     transition:  all 0.5s;
 }
 .project:hover{
     transform: scale(1.1);
-    box-shadow: 2px 2px  2px 2px #00EEFF ;
+    box-shadow: 5px 5px  3px #00EEFF ;
 }
 .dark-mode{
-    background-color: #fff !important;
+    background-color: var(--text-white) !important;
    
 }
 .dark-mode .text-white ,.dark-mode .text-light,.dark-mode .nav-link{
@@ -232,6 +201,6 @@ background-color: #00EEFF}
     
 }
 .dark-mode .navbar-toggler{
-    color: #fff!important; 
+    color: var(--text-white)!important; 
     background-color: #000 !important;
 }

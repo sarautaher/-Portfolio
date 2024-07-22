@@ -1,6 +1,10 @@
 
-#Home{
+ #Home{
     background-image: linear-gradient(rgba(0, 0, 0, 0.521),rgba(0,0,0, 0.521)) , url('../../../assets/img/d34f1032145678e1ae7a76e879226146.gif');
     background-size: cover;
 
+} 
+.dark-mode #Home{
+    background-image: linear-gradient(rgba(255, 253, 253, 0.962),rgba(255, 253, 253, 0.962)) , url('../../../assets/img/d34f1032145678e1ae7a76e879226146.gif');
+    background-size: cover;
 }
