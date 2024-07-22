@@ -13,7 +13,7 @@ export class AppComponent implements OnInit {
       easing: 'ease-in-out', 
       once: false
     });
-    window.addEventListener('scroll', AOS.refresh() );
+    window.addEventListener('scroll', AOS.refresh );
    
     
   }
