@@ -8,14 +8,13 @@ import * as AOS from "aos";
 export class AppComponent implements OnInit {
   title = 'app5';
   ngOnInit(): void {
-   /* AOS.init({
+    AOS.init({
       duration: 1200, 
       easing: 'ease-in-out', 
       once: false
     });
-    window.addEventListener('scroll', AOS.refresh);
-   */
-    AOS.init({disable: 'mobile'});
-    AOS.refresh();
+    window.addEventListener('scroll', AOS.refresh() );
+   
+    
   }
 }
