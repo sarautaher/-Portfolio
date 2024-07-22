@@ -35,7 +35,6 @@ body{
 a{
     text-decoration: none;
 }
-
 #Home .auto-type::after{
     content: "";
     animation-name:move ;
@@ -45,7 +44,6 @@ a{
     border-right: 2px #000 solid;
     padding-right: 10px;
 }
-
 @keyframes move{
 0%{
  content:  "F ";   
@@ -153,12 +151,10 @@ a{
        content:  "Angular developer|";   
       }
 }
-
 .log{
     animation-name: moveup;
     animation-iteration-count: infinite;
-    animation-duration: 5s; 
-     
+    animation-duration: 5s;      
 }
 @keyframes moveup{
     0%{
@@ -187,12 +183,11 @@ background-color: #00EEFF}
 .project{
     position: relative;
     transition:  all 0.5s;
+    box-shadow: 5px 5px  3px #00EEFF ;
 }
 .project:hover{
     transform: scale(1.1);
-
-    box-shadow: 2px 2px 5px #00EEFF ;
-
+   
 }
 .dark-mode{
     background-color: var(--text-white) !important;
