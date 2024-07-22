@@ -9,6 +9,6 @@ export class AppComponent implements OnInit {
   title = 'app5';
   ngOnInit(): void {
     AOS.init()
-    window.addEventListener('scroll', AOS.refresh);  
+   /* window.addEventListener('scroll', AOS.refresh);  */
   }
 }
