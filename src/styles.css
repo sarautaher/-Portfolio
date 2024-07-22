@@ -5,6 +5,7 @@ body{
     color: var(--text-white);
    background-color: RGB(31, 36, 45);
   overflow-x: hidden;
+  width: 100%;
 }
 .text-main{
     color: #00EEFF !important;
